@@ -1,0 +1,26 @@
+{
+  "name": "consentgate-mcp",
+  "version": "1.0.0",
+  "description": "Deterministic Information-Flow Taint-Tracking Firewall and Voice Step-Up Proxy for Alexa+ over MCP (Spec 2025-11-25 Streamable HTTP)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/consentgate.test.js",
+    "benchmark": "node scripts/run-benchmark.js"
+  },
+  "keywords": [
+    "alexa-plus",
+    "mcp",
+    "model-context-protocol",
+    "prompt-injection",
+    "taint-tracking",
+    "information-flow-control",
+    "confused-deputy",
+    "voice-ai",
+    "echo-show",
+    "amazon-bedrock"
+  ],
+  "author": "Jasurcyb",
+  "license": "MIT"
+}
